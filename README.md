@@ -48,13 +48,13 @@ npm run dev
 - 수정 내용 :#game-board button의 background를 skyblue로 변경
 - 전후 결과 :3X3 네모칸이  #aca788 색상에서 skyblue 색상으로 변경
 ### UI/Data
-- 수정 파일명 : 
-- 수정 내용 :
-- 전후 결과 : 
+- 수정 파일명 : App.jsx
+- 수정 내용 : handleCellClick 함수에서 플레이어가 최대 3개의 기호만 놓을 수 있도록, 4개째를 두려고 할 때 가장 오래된 기호가 사라지도록 수정
+- 전후 결과 : 전에는 기호가 사라지지 않고 게임 종료까지 남아있다가, 후에는 3개 이상일 때 사라지고 무승부 결과는 나오지 않음
 
 ## Deployment: 실제 접근 가능한 Vercel URL
 
 ## Weekly Review:
 - 새롭게 배운 내용 3가지 : 
-- 어려웠던 점과 해결 방법 : 
-- AI 활용 내용 및 느낀 점 : 프로젝트 선정을 위해 ai 사용, 동작원리 중 deriveActivePlayer()에 대한 이해를 위해 ai 사용, 내 과제 폴더에 react 프로젝트 복사하는 방법 알기 위해 ai 사용
+- 어려웠던 점과 해결 방법 : UI/Data에서 count는 올리나 그 값을 적용시키는 방법이 뭔지 몰랐음. return을 사용
+- AI 활용 내용 및 느낀 점 : 프로젝트 선정을 위해 ai 사용, 동작원리 중 deriveActivePlayer()에 대한 이해를 위해 ai 사용, 내 과제 폴더에 react 프로젝트 복사하는 방법 알기 위해 ai 사용, UI/Data에서 return 정하는데 ai 사용 / 처음부터 끝까지 내가 짠 코드가 아니라 사용된 함수나 변수명을 알기 어려웠습니다.

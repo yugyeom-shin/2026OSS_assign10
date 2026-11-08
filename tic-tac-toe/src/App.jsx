@@ -25,7 +25,20 @@ function App() {
         ...prevTurns,
       ];
 
-      return updatedTurns;
+      let xCount = 0;
+      let oCount = 0;
+
+      return updatedTurns.filter((turn) => {
+        if (turn.player === "X") {
+          xCount++;
+          return xCount <= 3;
+        } else if (turn.player === "O") {
+          oCount++;
+          return oCount <= 3;
+        } else {
+          return true;
+        }
+      });
     });
   }
 

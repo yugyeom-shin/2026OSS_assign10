@@ -56,6 +56,6 @@ npm run dev
 https://2026-oss-assign10-lovat.vercel.app/
 
 ## Weekly Review:
-- 새롭게 배운 내용 3가지 : 
+- 새롭게 배운 내용 3가지 : install 하는 방법 / setGameTurns()로 반영(업데이트) / return 기능 
 - 어려웠던 점과 해결 방법 : UI/Data에서 count는 올리나 그 값을 적용시키는 방법이 뭔지 몰랐음. return을 사용
 - AI 활용 내용 및 느낀 점 : 프로젝트 선정을 위해 ai 사용, 동작원리 중 deriveActivePlayer()에 대한 이해를 위해 ai 사용, 내 과제 폴더에 react 프로젝트 복사하는 방법 알기 위해 ai 사용, UI/Data에서 return 정하는데 ai 사용 / 처음부터 끝까지 내가 짠 코드가 아니라 사용된 함수나 변수명을 알기 어려웠습니다.

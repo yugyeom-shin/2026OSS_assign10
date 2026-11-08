@@ -53,6 +53,7 @@ npm run dev
 - 전후 결과 : 전에는 기호가 사라지지 않고 게임 종료까지 남아있다가, 후에는 3개 이상일 때 사라지고 무승부 결과는 나오지 않음
 
 ## Deployment: 실제 접근 가능한 Vercel URL
+https://2026-oss-assign10-lovat.vercel.app/
 
 ## Weekly Review:
 - 새롭게 배운 내용 3가지 : 

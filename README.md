@@ -13,15 +13,41 @@ npm run dev
 ![Clone 화면](./실행3.png)
 
 ## Source Code Exploration: 주요 파일, 컴포넌트, 코드 분석
-- 주요 파일 :
-- 컴포넌트 : 
-- 코드 :
+### Project Structure: 주요 파일 2~3개의 역할
+- App.jsx : 전체적인 진행 역할. 순서, 승자와 패자를 결정
+- helpers.js : 순서 계산, 우승자 계산(무승부도 계산)
+- winning-combinations.js : 이기는 경우의 수들
+
+### React Component: 주요 컴포넌트 1~2개의 역할
+- GameBoard.jsx : 게임판 표시, 칸 선택
+- Player.jsx : 이름 수정 가능
+
+### Code Analysis: 코드 1개(약 5~15줄)를 선택하여 동작 원리 설명
+#### App.jsx
+  function handleCellClick(row, col) {
+    setGameTurns((prevTurns) => {
+      const currentPlayer = deriveActivePlayer(prevTurns, symbols);
+
+      const updatedTurns = [
+        { square: { row, col }, player: currentPlayer },
+        ...prevTurns,
+      ];
+
+      return updatedTurns;
+    });
+  }
+클릭하는 칸(row, col)을 알고, deriveActivePlayer()로 현재 차례인 플레이어를 안다. updatedTurns를 통해 업데이트 된 상태를 추가한다. 
 
 ## Customizing: 수정한 3가지 내용, 수정 파일명 및 전/후 결과
+- Text : 
+- Style : 
+- UI/Data : 
+
+
 
 ## Deployment: 실제 접근 가능한 Vercel URL
 
 ## Weekly Review:
-- 새롭게 배운 내용 3가지
-- 어려웠던 점과 해결 방법
-- AI 활용 내용 및 느낀 점
+- 새롭게 배운 내용 3가지 : 
+- 어려웠던 점과 해결 방법 : 
+- AI 활용 내용 및 느낀 점 : 프로젝트 선정을 위해 ai 사용, 동작원리 중 deriveActivePlayer()에 대한 이해를 위해 ai 사용

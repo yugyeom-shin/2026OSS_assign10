@@ -44,9 +44,9 @@ npm run dev
 - 수정 내용 : player1, player2를 각각 first turn, second turn으로 수정
 - 전후 결과 : 화면에 표시된 player1, player2가 first turn, second turn으로 표시
 ### Style
-- 수정 파일명 : 
-- 수정 내용 :
-- 전후 결과 : 
+- 수정 파일명 : index.css
+- 수정 내용 :#game-board button의 background를 skyblue로 변경
+- 전후 결과 :3X3 네모칸이  #aca788 색상에서 skyblue 색상으로 변경
 ### UI/Data
 - 수정 파일명 : 
 - 수정 내용 :

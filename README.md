@@ -39,15 +39,22 @@ npm run dev
 클릭하는 칸(row, col)을 알고, deriveActivePlayer()로 현재 차례인 플레이어를 안다. updatedTurns를 통해 업데이트 된 상태를 추가한다. 
 
 ## Customizing: 수정한 3가지 내용, 수정 파일명 및 전/후 결과
-- Text : 
-- Style : 
-- UI/Data : 
-
-
+### Text  
+- 수정 파일명 : constants.js  
+- 수정 내용 : player1, player2를 각각 first turn, second turn으로 수정
+- 전후 결과 : 화면에 표시된 player1, player2가 first turn, second turn으로 표시
+### Style
+- 수정 파일명 : 
+- 수정 내용 :
+- 전후 결과 : 
+### UI/Data
+- 수정 파일명 : 
+- 수정 내용 :
+- 전후 결과 : 
 
 ## Deployment: 실제 접근 가능한 Vercel URL
 
 ## Weekly Review:
 - 새롭게 배운 내용 3가지 : 
 - 어려웠던 점과 해결 방법 : 
-- AI 활용 내용 및 느낀 점 : 프로젝트 선정을 위해 ai 사용, 동작원리 중 deriveActivePlayer()에 대한 이해를 위해 ai 사용
+- AI 활용 내용 및 느낀 점 : 프로젝트 선정을 위해 ai 사용, 동작원리 중 deriveActivePlayer()에 대한 이해를 위해 ai 사용, 내 과제 폴더에 react 프로젝트 복사하는 방법 알기 위해 ai 사용
